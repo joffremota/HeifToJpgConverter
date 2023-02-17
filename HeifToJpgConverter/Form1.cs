@@ -16,7 +16,7 @@ namespace HeifToJpgConverter
 
             using var openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = "c:\\";
-            openFileDialog.Filter = "heic files (*.heic)|*.heic";
+            openFileDialog.Filter = "heic files (*.heic)|*.heic|heif files (*.heif)|*.heif";
             openFileDialog.FilterIndex = 2;
             openFileDialog.RestoreDirectory = true;
 
