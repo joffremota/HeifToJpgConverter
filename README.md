@@ -6,9 +6,9 @@ proprio navegador.
 ## Acesso rapido
 
 - App publicado no GitHub Pages:
-  `https://joffremota.github.io/HeifToJpgConverter/`
+  [abrir conversor HEIF para JPG](https://joffremota.github.io/HeifToJpgConverter/)
 - Repositorio:
-  `https://github.com/joffremota/HeifToJpgConverter`
+  [joffremota/HeifToJpgConverter](https://github.com/joffremota/HeifToJpgConverter)
 
 ## Objetivo
 
@@ -27,7 +27,7 @@ das imagens para um servidor.
 
 ## Como usar no navegador
 
-1. Acesse `https://joffremota.github.io/HeifToJpgConverter/`
+1. Acesse [o conversor publicado](https://joffremota.github.io/HeifToJpgConverter/)
 2. Selecione ou arraste arquivos `.heic` ou `.heif`
 3. Ajuste a qualidade do JPG se necessario
 4. Clique em `Converter pendentes`

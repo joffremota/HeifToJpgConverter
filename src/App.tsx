@@ -50,6 +50,7 @@ function getErrorMessage(error: unknown): string {
 }
 
 export default function App() {
+  const readmeUrl = 'https://github.com/joffremota/HeifToJpgConverter#readme';
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const itemsRef = useRef<QueueItem[]>([]);
   const [items, setItems] = useState<QueueItem[]>([]);
@@ -210,7 +211,12 @@ export default function App() {
           <p className="eyebrow">Conversor web</p>
           <h1>HEIF para JPG</h1>
         </div>
-        <p className="privacy-note">As imagens sao convertidas localmente no navegador.</p>
+        <div className="header-links">
+          <a className="readme-link" href={readmeUrl} target="_blank" rel="noreferrer">
+            README
+          </a>
+          <p className="privacy-note">As imagens sao convertidas localmente no navegador.</p>
+        </div>
       </header>
 
       <main className="workspace">
